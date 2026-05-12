@@ -19,8 +19,7 @@ The pipeline covers everything from raw indicator extraction and reshaping to ra
 The raw dataset arrived as a multi-file structure with over 1 million rows of financial indicators across 12,000+ companies, requiring significant engineering before any analysis was possible.
 
 ## 1. Raw Data Extraction & Filtering
-r# Filtered ~8,500 XBRL indicators down to 9 key financial variables
-# across three indicator source files (income statement, balance sheet, cash flow)
+Filtered ~8,500 XBRL indicators down to 9 key financial variables across three indicator source files (income statement, balance sheet, cash flow)
 <img width="371" height="187" alt="image" src="https://github.com/user-attachments/assets/41ec989e-9dd8-4d9c-97fd-d68f133b339b" />
 
 ## 2. Wide-to-Long Reshape & Panel Construction
